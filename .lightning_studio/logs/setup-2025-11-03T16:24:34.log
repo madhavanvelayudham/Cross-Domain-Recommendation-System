@@ -1,0 +1,168 @@
+⚡ ~ setup.sh
+Collecting gradio
+  Downloading gradio-5.49.1-py3-none-any.whl.metadata (16 kB)
+Collecting streamlit
+  Downloading streamlit-1.51.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting aiofiles<25.0,>=22.0 (from gradio)
+  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: anyio<5.0,>=3.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (4.11.0)
+Collecting brotli>=1.1.0 (from gradio)
+  Downloading Brotli-1.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Requirement already satisfied: fastapi<1.0,>=0.115.2 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (0.120.0)
+Collecting ffmpy (from gradio)
+  Downloading ffmpy-0.6.4-py3-none-any.whl.metadata (2.9 kB)
+Collecting gradio-client==1.13.3 (from gradio)
+  Downloading gradio_client-1.13.3-py3-none-any.whl.metadata (7.1 kB)
+Collecting groovy~=0.1 (from gradio)
+  Downloading groovy-0.1.2-py3-none-any.whl.metadata (6.1 kB)
+Requirement already satisfied: httpx<1.0,>=0.24.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (0.28.1)
+Collecting huggingface-hub<2.0,>=0.33.5 (from gradio)
+  Downloading huggingface_hub-1.0.1-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: jinja2<4.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (3.0.3)
+Requirement already satisfied: numpy<3.0,>=1.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (1.26.4)
+Collecting orjson~=3.0 (from gradio)
+  Downloading orjson-3.11.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (41 kB)
+Requirement already satisfied: packaging in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (25.0)
+Requirement already satisfied: pandas<3.0,>=1.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (2.1.4)
+Collecting pillow<12.0,>=8.0 (from gradio)
+  Downloading pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting pydantic<2.12,>=2.0 (from gradio)
+  Downloading pydantic-2.11.10-py3-none-any.whl.metadata (68 kB)
+Collecting pydub (from gradio)
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Requirement already satisfied: python-multipart>=0.0.18 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (0.0.20)
+Requirement already satisfied: pyyaml<7.0,>=5.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (6.0.3)
+Collecting ruff>=0.9.3 (from gradio)
+  Downloading ruff-0.14.3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+Collecting safehttpx<0.2.0,>=0.1.6 (from gradio)
+  Downloading safehttpx-0.1.7-py3-none-any.whl.metadata (4.2 kB)
+Collecting semantic-version~=2.0 (from gradio)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: starlette<1.0,>=0.40.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (0.48.0)
+Collecting tomlkit<0.14.0,>=0.12.0 (from gradio)
+  Downloading tomlkit-0.13.3-py3-none-any.whl.metadata (2.8 kB)
+Collecting typer<1.0,>=0.12 (from gradio)
+  Downloading typer-0.20.0-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: typing-extensions~=4.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (4.15.0)
+Requirement already satisfied: uvicorn>=0.14.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio) (0.38.0)
+Requirement already satisfied: fsspec in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio-client==1.13.3->gradio) (2025.9.0)
+Requirement already satisfied: websockets<16.0,>=13.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from gradio-client==1.13.3->gradio) (15.0.1)
+Requirement already satisfied: idna>=2.8 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from anyio<5.0,>=3.0->gradio) (3.11)
+Requirement already satisfied: sniffio>=1.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from anyio<5.0,>=3.0->gradio) (1.3.1)
+Requirement already satisfied: annotated-doc>=0.0.2 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from fastapi<1.0,>=0.115.2->gradio) (0.0.3)
+Requirement already satisfied: certifi in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from httpx<1.0,>=0.24.1->gradio) (2025.10.5)
+Requirement already satisfied: httpcore==1.* in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from httpx<1.0,>=0.24.1->gradio) (1.0.9)
+Requirement already satisfied: h11>=0.16 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio) (0.16.0)
+Requirement already satisfied: filelock in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (3.20.0)
+Collecting shellingham (from huggingface-hub<2.0,>=0.33.5->gradio)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: tqdm>=4.42.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (4.67.1)
+Collecting typer-slim (from huggingface-hub<2.0,>=0.33.5->gradio)
+  Downloading typer_slim-0.20.0-py3-none-any.whl.metadata (16 kB)
+Collecting hf-xet<2.0.0,>=1.2.0 (from huggingface-hub<2.0,>=0.33.5->gradio)
+  Downloading hf_xet-1.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from pandas<3.0,>=1.0->gradio) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from pandas<3.0,>=1.0->gradio) (2025.2)
+Requirement already satisfied: tzdata>=2022.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from pandas<3.0,>=1.0->gradio) (2025.2)
+Requirement already satisfied: annotated-types>=0.6.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from pydantic<2.12,>=2.0->gradio) (0.7.0)
+Collecting pydantic-core==2.33.2 (from pydantic<2.12,>=2.0->gradio)
+  Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Requirement already satisfied: typing-inspection>=0.4.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from pydantic<2.12,>=2.0->gradio) (0.4.2)
+Requirement already satisfied: click>=8.0.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from typer<1.0,>=0.12->gradio) (8.3.0)
+Requirement already satisfied: rich>=10.11.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from typer<1.0,>=0.12->gradio) (14.2.0)
+Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0 (from streamlit)
+  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.5.0 (from streamlit)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: cachetools<7,>=4.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from streamlit) (6.2.1)
+Requirement already satisfied: protobuf<7,>=3.20 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from streamlit) (4.23.4)
+Collecting pyarrow<22,>=7.0 (from streamlit)
+  Downloading pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Requirement already satisfied: requests<3,>=2.27 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from streamlit) (2.32.5)
+Collecting tenacity<10,>=8.1.0 (from streamlit)
+  Downloading tenacity-9.1.2-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml<2,>=0.10.1 (from streamlit)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit)
+  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit)
+  Downloading gitpython-3.1.45-py3-none-any.whl.metadata (13 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit)
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: tornado!=6.5.0,<7,>=6.0.3 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from streamlit) (6.5.2)
+Requirement already satisfied: jsonschema>=3.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit) (4.25.1)
+Collecting narwhals>=1.14.2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit)
+  Downloading narwhals-2.10.1-py3-none-any.whl.metadata (11 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (2.5.0)
+Requirement already satisfied: attrs>=22.2.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit) (0.37.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit) (0.28.0)
+Requirement already satisfied: six>=1.5 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio) (1.17.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from rich>=10.11.0->typer<1.0,>=0.12->gradio) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from rich>=10.11.0->typer<1.0,>=0.12->gradio) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0,>=0.12->gradio) (0.1.2)
+Downloading gradio-5.49.1-py3-none-any.whl (63.5 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/63.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m35.4/63.5 MB[0m [31m179.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m63.4/63.5 MB[0m [31m192.5 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m63.5/63.5 MB[0m [31m140.5 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading gradio_client-1.13.3-py3-none-any.whl (325 kB)
+Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Downloading huggingface_hub-1.0.1-py3-none-any.whl (503 kB)
+Downloading hf_xet-1.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.3/3.3 MB[0m [31m117.7 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading orjson-3.11.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (136 kB)
+Downloading pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/6.6 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.6/6.6 MB[0m [31m128.7 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading pydantic-2.11.10-py3-none-any.whl (444 kB)
+Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.0/2.0 MB[0m [31m92.4 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Downloading typer-0.20.0-py3-none-any.whl (47 kB)
+Downloading streamlit-1.51.0-py3-none-any.whl (10.2 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.2 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.2/10.2 MB[0m [31m124.3 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading altair-5.5.0-py3-none-any.whl (731 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/731.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m731.2/731.2 kB[0m [31m45.5 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading gitpython-3.1.45-py3-none-any.whl (208 kB)
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+Downloading pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (42.8 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/42.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m37.7/42.8 MB[0m [31m187.2 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42.8/42.8 MB[0m [31m128.2 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/6.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.9/6.9 MB[0m [31m101.5 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading smmap-5.0.2-py3-none-any.whl (24 kB)
+Downloading tenacity-9.1.2-py3-none-any.whl (28 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Downloading Brotli-1.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.9/2.9 MB[0m [31m84.6 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading narwhals-2.10.1-py3-none-any.whl (419 kB)
+Downloading ruff-0.14.3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.3 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/13.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.3/13.3 MB[0m [31m134.3 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading ffmpy-0.6.4-py3-none-any.whl (5.6 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading typer_slim-0.20.0-py3-none-any.whl (47 kB)
+Installing collected packages: pydub, brotli, watchdog, typer-slim, tomlkit, toml, tenacity, smmap, shellingham, semantic-version, ruff, pydantic-core, pyarrow, pillow, orjson, narwhals, hf-xet, groovy, ffmpy, blinker, aiofiles, pydeck, pydantic, gitdb, typer, safehttpx, huggingface-hub, gitpython, gradio-client, altair, streamlit, gradio
+[?25l[2K   [91m━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m 1/32[0m [brotli][2K   [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m 3/32[0m [typer-slim][2K   [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m 6/32[0m [tenacity][2K   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K  Attempting uninstall: pydantic-core
+   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K    Found existing installation: pydantic_core 2.41.4
+   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K    Uninstalling pydantic_core-2.41.4:
+   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K      Successfully uninstalled pydantic_core-2.41.4
+   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10/32[0m [ruff][2K   [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11/32[0m [pydantic-core][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K  Attempting uninstall: pillow
+   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K    Found existing installation: pillow 12.0.0
+   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12/32[0m [pyarrow][2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K    Uninstalling pillow-12.0.0:
+   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K      Successfully uninstalled pillow-12.0.0
+   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13/32[0m [pillow][2K   [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m15/32[0m [narwhals][2K   [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m15/32[0m [narwhals][2K   [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m15/32[0m [narwhals][2K   [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m15/32[0m [narwhals][2K   [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m15/32[0m [narwhals][2K   [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m16/32[0m [hf-xet][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m20/32[0m [aiofiles][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m21/32[0m [pydeck][2K  Attempting uninstall: pydantic
+   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m21/32[0m [pydeck][2K    Found existing installation: pydantic 2.12.3
+   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m21/32[0m [pydeck][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K    Uninstalling pydantic-2.12.3:
+   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K      Successfully uninstalled pydantic-2.12.3
+   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m22/32[0m [pydantic][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━[0m [32m24/32[0m [typer][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m26/32[0m [huggingface-hub][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m26/32[0m [huggingface-hub][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m26/32[0m [huggingface-hub][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━[0m [32m27/32[0m [gitpython][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m28/32[0m [gradio-client][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m29/32[0m [altair][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m29/32[0m [altair][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m30/32[0m [streamlit][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m31/32[0m [gradio][2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m32/32[0m [gradio]
+[?25h[1A[2KSuccessfully installed aiofiles-24.1.0 altair-5.5.0 blinker-1.9.0 brotli-1.1.0 ffmpy-0.6.4 gitdb-4.0.12 gitpython-3.1.45 gradio-5.49.1 gradio-client-1.13.3 groovy-0.1.2 hf-xet-1.2.0 huggingface-hub-1.0.1 narwhals-2.10.1 orjson-3.11.4 pillow-11.3.0 pyarrow-21.0.0 pydantic-2.11.10 pydantic-core-2.33.2 pydeck-0.9.1 pydub-0.25.1 ruff-0.14.3 safehttpx-0.1.7 semantic-version-2.10.0 shellingham-1.5.4 smmap-5.0.2 streamlit-1.51.0 tenacity-9.1.2 toml-0.10.2 tomlkit-0.13.3 typer-0.20.0 typer-slim-0.20.0 watchdog-6.0.0
+[1m[3m%[23m[1m[0m                                                                                k../zeus/content\]7;file://ip-10-192-10-198/home/zeus/content\[0m[23m[24m[J⚡ /home/zeus/content [K[?1h=[?2004h

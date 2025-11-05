@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cold-Start Recommender (Movies to Music)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div id="intro">
+    <div class="m-wrapper">
+      <div class="m-letter">R</div>       <div class="m-streak"></div>
+    </div>
+    <h1 class="maddyflix-title">RECOMMENDER</h1>   </div>
+
+    <div id="main-content" class="hidden">
+    <header class="header">
+      <h1>Cross-Domain Recommender</h1>       <p> Enter your favorite movies — discover music that matches your vibe! </p>
+    </header>
+
+    <main>
+      <section id="movie-section">
+        <h2 id="category-title">Recommended Music</h2>         <div id="movie-grid" class="grid"></div>
+      </section>
+    </main>
+
+    <div id="input-section">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Enter movie reviews, separated by a semicolon (;)..."
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <button id="send-btn">Get Recommendations</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

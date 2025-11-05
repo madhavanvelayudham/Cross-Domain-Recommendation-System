@@ -1,0 +1,13 @@
+# Datasets
+*.jsonl
+*.json
+
+# Trained models and catalogs
+*.pth
+
+# Python cache
+__pycache__/
+
+# Environment files
+.env
+/cloudspace/
