@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.check.pyc*
+
+static/output.mp3
+
+*.pth
+*.jsonl
+train_dataset.json
+test_dataset.json
+
+.env
+.venv/
+venv/
